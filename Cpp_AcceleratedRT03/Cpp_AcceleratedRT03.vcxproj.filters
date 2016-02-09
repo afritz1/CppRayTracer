@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Main\Main.cpp" />
+    <ClCompile Include="src\Accelerators\Accelerator.cpp" />
+    <ClCompile Include="src\Cameras\Camera.cpp" />
+    <ClCompile Include="src\Lights\Light.cpp" />
+    <ClCompile Include="src\Materials\Material.cpp" />
+    <ClCompile Include="src\Rays\Ray.cpp" />
+    <ClCompile Include="src\Shapes\Shape.cpp" />
+    <ClCompile Include="src\Worlds\World.cpp" />
+    <ClCompile Include="src\Utilities\Utility.cpp" />
+    <ClCompile Include="src\Programs\Program.cpp" />
+    <ClCompile Include="src\Rendering\Renderer.cpp" />
+    <ClCompile Include="src\Accelerators\BVH.cpp" />
+    <ClCompile Include="src\Lights\SphereLight.cpp" />
+    <ClCompile Include="src\Lights\CuboidLight.cpp" />
+    <ClCompile Include="src\Materials\Phong.cpp" />
+    <ClCompile Include="src\Shapes\Sphere.cpp" />
+    <ClCompile Include="src\Shapes\Cuboid.cpp" />
+    <ClCompile Include="src\Intersections\Intersection.cpp" />
+    <ClCompile Include="src\Accelerators\BoundingBox.cpp" />
+    <ClCompile Include="src\Accelerators\BVHFlatNode.cpp" />
+    <ClCompile Include="src\Accelerators\BVHTraversal.cpp" />
+    <ClCompile Include="src\Accelerators\BVHBuildEntry.cpp" />
+    <ClCompile Include="src\Materials\Flat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Accelerators\Accelerator.h" />
+    <ClInclude Include="src\Cameras\Camera.h" />
+    <ClInclude Include="src\Lights\Light.h" />
+    <ClInclude Include="src\Materials\Material.h" />
+    <ClInclude Include="src\Math\Matrix4.h" />
+    <ClInclude Include="src\Math\Vector3.h" />
+    <ClInclude Include="src\Rays\Ray.h" />
+    <ClInclude Include="src\Shapes\Shape.h" />
+    <ClInclude Include="src\Utilities\Utility.h" />
+    <ClInclude Include="src\Worlds\World.h" />
+    <ClInclude Include="src\Programs\Program.h" />
+    <ClInclude Include="src\Rendering\Renderer.h" />
+    <ClInclude Include="src\Accelerators\BVH.h" />
+    <ClInclude Include="src\Lights\SphereLight.h" />
+    <ClInclude Include="src\Lights\CuboidLight.h" />
+    <ClInclude Include="src\Materials\Phong.h" />
+    <ClInclude Include="src\Shapes\Sphere.h" />
+    <ClInclude Include="src\Shapes\Cuboid.h" />
+    <ClInclude Include="src\Intersections\Intersection.h" />
+    <ClInclude Include="src\Accelerators\BoundingBox.h" />
+    <ClInclude Include="src\Accelerators\BVHFlatNode.h" />
+    <ClInclude Include="src\Accelerators\BVHTraversal.h" />
+    <ClInclude Include="src\Accelerators\BVHBuildEntry.h" />
+    <ClInclude Include="src\Materials\Flat.h" />
+    <ClInclude Include="src\Math\Quaternion.h" />
+  </ItemGroup>
+</Project>
